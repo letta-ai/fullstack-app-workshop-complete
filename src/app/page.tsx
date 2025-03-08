@@ -56,7 +56,7 @@ export default async function Home() {
     const agentId = await getAgentId();
 
     return (
-        <div className="w-[100vw] h-[100vh] absolute top-0 flex">
+        <div className="">
             <SignedOut>
                 Please log in!
             </SignedOut>
